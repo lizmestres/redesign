@@ -1,0 +1,110 @@
+
+/****************************/
+/* LOCAL CSS                */
+/****************************/
+
+/* Put your custom CSS and CSS overrides in this file and  */
+/* rename it local.css.  By restricting your CSS changes   */
+/* to local.css, your changes will not be overwritten when */
+/* upgrading to a new version of this theme.  You can also */
+/* use a local-rtl.css file for the equivalent in RTL.     */
+
+/* Steps to activate local.css:                       */
+/* 1. Add your custom CSS to this file                */
+/* 2. Rename this file to local.css                   */
+/* 3. Clear cached data at admin/settings/performance */
+
+a:link,
+a:visited,
+a:hover,
+a:focus
+
+/*#block-block-1 {
+	float: left;
+	width: 50%;
+	margin-top: 5%;
+	margin-bottom: -5%;
+}
+
+#block-system-main-menu {
+	clear: both;
+	display: block;
+	width: 60%;
+}
+
+*/
+
+
+
+
+
+img, 
+img.scale-with-grid { 
+
+	max-width: 100%; 
+	height: auto; }
+
+.header-site-info {
+  display: block;
+
+}
+
+.header-top {
+padding-top: 1%;}
+
+
+#block-search-form {
+	float: right;
+	text-align: right;
+
+}
+
+  #block-block-1 {
+	float: left;
+	width: 28%;
+	margin-top: 3%;
+
+}
+
+
+	
+
+@media all and (min-width: 961px)
+
+#block-block-1 {
+	float: left;
+	width: 25%;
+	margin-top: 5%;
+	margin-bottom: -5%;
+}
+
+#block-search-form {
+	float: right;
+	text-align: right;
+	margin-top: -3%;
+
+}
+
+
+
+
+
+h1.title {
+	text-transform: uppercase;
+	font-size: 4.3em;
+	text-decoration: none;
+	color: black;
+}
+
+h2.node__title a,
+h2.node__title
+{
+	text-transform: uppercase;
+	font-size: 2.1em;
+	text-decoration: none;
+	color: black;
+}
+
+h2.block__title {
+	display: none;
+}

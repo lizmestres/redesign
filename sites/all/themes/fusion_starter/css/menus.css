@@ -1,0 +1,281 @@
+/* Primary Menu
+/-------------------------------------------------------------- */
+
+
+
+/*#main-menu-wrapper {
+	border-left: 1px solid #000000;
+	height: 25px;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	margin-top: 2px;
+	
+}*/
+
+#block-system-main-menu {
+	display: inline;
+	margin-left: -7%;
+	width: 60%;
+}
+
+
+
+ #block-system-main-menu ul.menu li a:link,
+ #block-system-main-menu ul.menu li a:visited,
+ #block-system-main-menu ul.menu li
+ {	
+	background: #ffffff;	
+	border-right: 1px solid #000000;
+	font-family: futura, Futura Bk BT, Kabel Bk BT, HelveticaLight, Helvetica, Arial;
+	font-size: .85em;
+	font-weight: bold;
+	padding-left: 0px;
+	padding-right: 0px;
+	color: #000000;
+	text-align: center;
+	display: block;
+	valign: center;
+	float: left;	
+	width: 95px;
+	height: 25px;
+	margin-top: 3.5%;
+	margin-left: 0px;	
+	text-decoration: none;	
+
+
+}
+
+ #block-system-main-menu ul.menu li.first {
+ 	border-left: 1px solid #000000;
+ }
+
+
+ #block-system-main-menu ul.menu li  a:active,
+  #block-system-main-menu ul.menu li  a:hover {	background: #000000;
+	color: #ffffff;
+		}
+
+/* begin side menus */
+
+#block-system-navigation ul,
+#block-menu-menu-virtual ul,
+#block-menu-menu-classrooms ul,
+#block-menu-menu-donate ul,
+#block-menu-menu-nyms-menu ul,
+#block-menu-menu-upcoming ul,
+#block-menu-menu-arts ul,
+#block-menu-menu-ipe-menu ul,
+#block-menu-menu-general ul, 
+#block-menu-27 ul, #block-user-1 ul {
+ clear: both;
+ border-style: solid;
+ border-width: 0px;
+ border-color: black;
+ margin-left: 0;
+ padding: 0px;
+ margin-right: 10px;
+ width: 160px;
+}
+
+#block-menu-menu-ipe-menu {
+	margin-bottom: 35px;
+}
+
+#block-menu-menu-arts {
+	margin-top: 15px;
+}
+
+#block-system-navigation li,
+#block-menu-menu-virtual li,
+#block-menu-menu-classrooms li,
+#block-menu-menu-donate li,
+#block-menu-menu-nyms-menu li,		
+#block-menu-menu-upcoming li,		
+#block-menu-menu-arts li,
+#block-menu-menu-ipe-menu li,
+#block-user-1 li {
+	font: Futura Bk BT", Futura, Kabel Bk BT, HelveticaLight, Helvetica, Arial;
+	color: #BEBEBE;
+	text-decoration: none;
+	text-indent: none;
+	list-style: none;
+	margin-top: 5px;
+	margin-left:0px;
+
+}
+
+#block-system-navigation li a,
+#block-menu-menu-virtual li a,
+#block-menu-menu-classrooms li a,
+#block-menu-menu-donate li a,
+#block-menu-menu-nyms-menu li a,	
+#block-menu-menu-upcoming li a,
+#block-menu-menu-arts li a,
+#block-menu-menu-ipe-menu li a,
+#block-user-1 li a {
+	 display: block;
+	 height: 23x;
+	 width: 105px;	
+	 color: #7e7c6b;
+	 font-family: futura, Arial, Helvetica, sans-serif;
+	 text-decoration: none;	
+	 font-size: 9px;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 border-top-style:solid;
+	 border-top-color: #BEBEBE;
+	 border-top-width: 1px;
+	 margin-left: 0;
+	 padding: 0px;
+	 padding-bottom: 6px;
+	 margin-right: 10px;
+}
+
+#block-system-navigation li a:hover,
+#block-menu-menu-virtual li a:hover,
+#block-menu-menu-donate li a:hover,
+#block-menu-menu-nyms-menu li a:hover,
+#block-menu-menu-upcoming li a:hover,
+#block-menu-menu-arts li a:hover,
+#block-menu-menu-ipe-menu li a:hover,
+#block-user-1 li a:hover {
+	color: #B00029;
+}
+
+/* begin organic groups menu block* - nothing works*/
+
+.view-id-og_my thead  {
+
+	display: none;
+}
+
+.view-id-og_my tr,
+.view-id-og_my .views-field-post-count-new {
+	border-width: 0px;
+}
+
+.view-id-og_my .views-field-title a,
+.view-id-og_my .views-field-title,
+#block-views-og_my-block_1 .links,
+#block-views-og_my-block_1 .views-field-title
+
+ {
+	 display: block;
+	 height: 23x;
+	 width: 105px;	
+	 color: #7e7c6b;
+	 font-family: futura, Arial, Helvetica, sans-serif;
+	 text-decoration: none;	
+	 font-size: 9px;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 border-top-style:solid;
+	 border-top-color: #BEBEBE;
+	 border-top-width: 1px;
+	 border-right-width: 0px;
+	 border-bottom-width: 0px;
+	 border-left-width: 0px;
+	 margin-left: 0;
+	 padding: 0px;
+	 padding-bottom: 6px;
+	 margin-right: 10px;
+}
+
+
+	
+#block-views-og_my-block_1 tr.even td, tr.odd td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0px #fff;
+} 
+
+
+
+/* begin black background side menus */
+
+#block-menu-menu-arts-regulars ul {
+ clear: both;
+ border-style: solid;
+ border-width: 0px;
+ border-color: black;
+ margin-left: 0;
+ padding: 0px;
+ margin-right: 10px;
+}
+
+#block-menu-menu-general li, 
+#block-menu-menu-arts-regulars li {
+	font: Futura Bk BT", Futura, Kabel Bk BT, HelveticaLight, Helvetica, Arial;
+	text-decoration: none;
+	text-indent: none;
+	list-style: none;
+	margin-top: 5px;
+	margin-left:0px;
+
+}
+
+#block-menu-menu-general li a, 
+#block-menu-menu-arts-regulars li a {
+	 display: block;
+	 background: #000000;
+	 height: 18px;
+	 width: 100px;	
+	 color: #ffffff;
+	 font-family: futura, Arial, Helvetica, sans-serif;
+	 text-decoration: none;	
+	 font-size: 10px;
+	 font-weight: normal;
+	 border-top-style:solid;
+	 border-top-color: #BEBEBE;
+	 border-top-width: 1px;
+	 margin-left: 0;
+	 padding-left: 5px;
+	 padding-top: 2px;
+	 margin-right: 10px;
+}
+
+
+#block-menu-menu-arts-regulars li a:hover,
+#block-menu-menu-general li a:hover {
+	color: #ffff66;
+	}
+
+
+	
+	
+/*links menu*/
+#block-nice_menus-2  {
+ border-left-style: solid;
+ border-left-width: 0px;
+ border-left-color: black;
+ align: left;
+ margin-left: 0px;
+ margin-right: 0px;
+ padding-top: 4px;
+ padding-left: 0px;
+ padding-right: 0px;
+ width: 800px;
+ height: 30px;
+ font-family: futura, Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ font-weight: normal;
+ color: #000000;
+ font-style: condensed;
+}
+
+/*civicrm menu */
+.menumain {
+	font-family: futura, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+/* Organic Groups menu & blocks */
+
+#block-views-og_my-block_1
+
+
+
+
+
+
+
+
+

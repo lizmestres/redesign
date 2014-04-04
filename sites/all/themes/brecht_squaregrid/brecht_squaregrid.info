@@ -1,0 +1,23 @@
+name = Brecht Squaregrid
+description = Responsive design squaregrid subtheme using HTML5. See Theme Settings for important configuration options.
+base theme = squaregrid
+core = 7.x
+engine = phptemplate
+
+; Stylesheets
+stylesheets[all][] = css/default.css
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/local.css
+stylesheets[all][] = css/menus.css
+
+; Page layout regions
+regions[header_top] = Header top
+regions[header] = Header
+regions[banner] = Banner
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
+
+
+
